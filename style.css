@@ -192,6 +192,13 @@ body > footer {
     position: absolute;
     bottom: 0px;
 }
+.copyrightfooter{
+    text-align: right;
+    position: absolute;
+    width: 100%;
+    top: 15px;
+
+}
 /* =CONTACTFORM
 ----------------------------------------------- */
 .contactform {
