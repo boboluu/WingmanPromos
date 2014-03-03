@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <style>
-
       #venue-list {
         list-style-type: none;
         padding: 0px;
@@ -19,7 +18,7 @@
         clear: both;
       }
 
-      #venue-list li  {
+      li:after {
         content: ".";
         display: block;
         height: 0;
@@ -51,6 +50,16 @@
     </style>
   </head>
   <body>
+    	<div id="fb-root"></div>
+    	<script>(function(d, s, id) {
+        	var js, fjs = d.getElementsByTagName(s)[0];
+        	if (d.getElementById(id)) return;
+        	js = d.createElement(s); js.id = id;
+        	js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+        	fjs.parentNode.insertBefore(js, fjs);
+        	}(document, 'script', 'facebook-jssdk'));
+   	 	</script> 
+
     <h1>Venues</h1>
 
     <ul id="venue-list">
@@ -189,7 +198,14 @@
 
     </ul>
 
-  </div>
+
+
+  <footer class="altfooter">
+    <div class="fb-like" data-href="https://www.facebook.com/wingmanenterprises" data-width="150" data-layout="standard" data-action="like" data-show-faces="true" data-share="true">
+    </div>
+    <p style="text-align: right;">WINGMANPROMOS.COM &copy; 2011 ALL RIGHTS RESERVED</p>
+</footer>
+
 
 </body>
 </html>
