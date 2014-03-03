@@ -184,6 +184,14 @@ body > footer {
     bottom: 0px;
 }
 
+.altfooter {
+    background: url("images/menu-back.jpg") repeat;
+    height: 50px;
+    margin: 0 auto;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
 /* =CONTACTFORM
 ----------------------------------------------- */
 .contactform {
@@ -192,3 +200,5 @@ body > footer {
     margin: 0 auto;
     width: 60%;
 }
+
+
