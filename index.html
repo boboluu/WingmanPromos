@@ -8,11 +8,24 @@
     <title>Wingman Promotions</title>
     <link rel="icon" href="favicon.png">
     <link href="style.css" rel="stylesheet" type="text/css" media="screen,projection" />
+    <!-- bxSlider CSS file -->
+    <link href="js/colorbox/colorbox.css" rel="stylesheet" />
     <!-- jQuery library (served from Google) -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="js/colorbox/jquery.colorbox.js"></script>
+        
 </head>
 
 <body>  
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+        fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>  
     <header>
         <div id="skyline"></div>
         <h1>
@@ -22,16 +35,50 @@
         </h1>
         <nav>
             <ul class="group">
-                <li><a href="#calendar" class="cal-link">Upcoming Shows</a></li>
-                <li><a href="#specials">Specials</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="/events.html">Events</a></li>
+                <li><a href="/venues.html">Venues</a></li>
+                <li><a href="/services.html">Services</a></li>
+                <li><a class="contact" href="#contactform">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <div class="slideshow"></div>
+    <div class="slideshow">
+      <ul class="bxslider">
+        <li><img src="/images/slider/AA_GreenMill_29.jpg" /></li>
+        <li><img src="/images/slider/AA_PalmerHouse_18.jpg" /></li>
+        <li><img src="/images/slider/AA_TASTE_09_2013.jpg" /></li>
+        <li><img src="/images/slider/CC_gospel_sunday_pritzker.jpg" /></li>
+        <li><img src="/images/slider/CC_Jazz_Fest_08.jpg" /></li>
+        <li><img src="/images/slider/CC_LuxBar.jpg" /></li>
+        <li><img src="/images/slider/CC_Rookery_Burnham_Root.jpg" /></li>
+        <li><img src="/images/slider/CC_Soldier_Field_3.jpg" /></li>
+        <li><img src="/images/slider/CC_TheBerghoff-medres.jpg" /></li>
+        <li><img src="/images/slider/CCTB_SkylineBallroom_Setup1.jpg" /></li>
+        <li><img src="/images/slider/CR_below-trumptower.jpg" /></li>
+        <li><img src="/images/slider/CR_OrientalTheatre.jpg" /></li>
+        <li><img src="/images/slider/CR_river-chicagoflag.jpg" /></li>
+        <li><img src="/images/slider/DCASE_mich_ave_at_xmas.jpg" /></li>
+        <li><img src="/images/slider/DCASE_UP_Comedy_Club_int_001.jpg" /></li>
+      </ul>
+    </div>
     <footer>
-
+    <div class="fb-like" data-href="https://www.facebook.com/wingmanenterprises" data-width="150" data-layout="standard" data-action="like" data-show-faces="true" data-share="true">
+    </div>
+    <p style="text-align: right;">WINGMANPROMOS.COM &copy; 2011 ALL RIGHTS RESERVED</p>
     </footer>
+    <div style="display:none">
+        <div id="contactform">
+            <input type="text" placeholder="Name"><br/>
+            <input type="email" placeholder="Email"><br/>
+            <textarea placeholder="Comments/Questions" cols="80" rows="8" color: "#b9b9b9"></textarea>
+            <button type="submit">Submit</button>
+        </div>
+     </div>
+    <!-- bxSlider Javascript file -->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".contact").colorbox({inline:true, width: "60%"});
+        });
+    </script>
 </body>
 </html>
