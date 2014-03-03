@@ -203,8 +203,15 @@
   <footer class="altfooter">
     <div class="fb-like" data-href="https://www.facebook.com/wingmanenterprises" data-width="150" data-layout="standard" data-action="like" data-show-faces="true" data-share="true">
     </div>
+<<<<<<< HEAD
     <div class="copyrightfooter">
     <p>WINGMANPROMOS.COM &copy; 2011 ALL RIGHTS RESERVED</p>
     </div>  </footer>  
+=======
+    <p style="text-align: right;">WINGMANPROMOS.COM &copy; 2011 ALL RIGHTS RESERVED</p>
+</footer>
+
+
+>>>>>>> b711716b4be125bce1419161fcf1d88ba233582b
 </body>
 </html>
