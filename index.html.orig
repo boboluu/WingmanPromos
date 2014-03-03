@@ -9,7 +9,11 @@
     <link rel="icon" href="favicon.png">
     <link href="style.css" rel="stylesheet" type="text/css" media="screen,projection" />
     <!-- bxSlider CSS file -->
-    <link href="/js/jquery.bxslider/jquery.bxslider.css" rel="stylesheet" />
+<<<<<<< HEAD
+    <link href="/lib/jquery.bxslider/jquery.bxslider.css" rel="stylesheet" />
+=======
+    <link href="/lib/jquery.bxslider.css" rel="stylesheet" />
+>>>>>>> master
     <!-- jQuery library (served from Google) -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 </head>
@@ -33,6 +37,12 @@
     </header>
     <div class="slideshow">
       <ul class="bxslider">
+<<<<<<< HEAD
+        <li><img src="/images/pic1.jpg" /></li>
+        <li><img src="/images/pic2.jpg" /></li>
+        <li><img src="/images/pic3.jpg" /></li>
+        <li><img src="/images/pic4.jpg" /></li>
+=======
         <li><img src="/images/slider/AA_GreenMill_29.jpg" /></li>
         <li><img src="/images/slider/AA_PalmerHouse_18.jpg" /></li>
         <li><img src="/images/slider/AA_TASTE_09_2013.jpg" /></li>
@@ -48,17 +58,17 @@
         <li><img src="/images/slider/CR_river-chicagoflag.jpg" /></li>
         <li><img src="/images/slider/DCASE_mich_ave_at_xmas.jpg" /></li>
         <li><img src="/images/slider/DCASE_UP_Comedy_Club_int_001.jpg" /></li>
+>>>>>>> master
       </ul>
     </div>
     <footer>
 
     </footer>
     <!-- bxSlider Javascript file -->
+<<<<<<< HEAD
     <script src="/js/jquery.bxslider/jquery.bxslider.min.js"></script>
-    <script>
-      $(document).ready(function(){
-        $('.bxslider').bxSlider();
-      });
-    </script>
+=======
+    <script src="/js/jquery.bxslider.min.js"></script>
+>>>>>>> master
 </body>
 </html>
