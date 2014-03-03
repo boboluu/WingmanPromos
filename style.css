@@ -169,3 +169,15 @@ nav ul li a::after {
 }
 
 nav ul li a:hover::after { width: 10px; }
+
+
+/* =FOOTER
+----------------------------------------------- */
+body > footer {
+    background: url("images/menu-back.jpg") repeat;
+    height: 50px;
+    margin: 0 auto;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
