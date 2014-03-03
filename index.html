@@ -12,6 +12,8 @@
     <link href="/lib/jquery.bxslider.css" rel="stylesheet" />
     <!-- jQuery library (served from Google) -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script src="jquery.colorbox.js"></script>
+        
 </head>
 
 <body>  
@@ -36,7 +38,7 @@
                 <li><a href="/events.html">Events</a></li>
                 <li><a href="/venues.html">Venues</a></li>
                 <li><a href="/services.html">Services</a></li>
-                <li><a href="/contact.html">Contact</a></li>
+                <li><a class="contact" href="#contactform">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -64,7 +66,19 @@
     </div>
     <p style="text-align: right;">WINGMANPROMOS.COM &copy; 2011 ALL RIGHTS RESERVED</p>
     </footer>
+    <div style="display:none">
+        <div id="contactform">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <input type="textarea" placeholder="Comments/Questions">
+        </div>
+     </div>
     <!-- bxSlider Javascript file -->
+    <script type="text/javascript">
+            $(document).ready(function(){
+                $(".contact").colorbox({inline:true, width: 60%});
+            });
+        </script>
     <script src="/js/jquery.bxslider.min.js"></script>
 </body>
 </html>

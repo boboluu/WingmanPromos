@@ -181,3 +181,12 @@ body > footer {
     position: absolute;
     bottom: 0px;
 }
+
+/* =CONTACTFORM
+----------------------------------------------- */
+.contactform {
+    display: inline-block;
+    background-color: #333;
+    margin: 0 auto;
+    width: 60%;
+}
