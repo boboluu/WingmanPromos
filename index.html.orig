@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8"/>
+    <meta name="description" content="">
+    <meta name="author" content="Wingman Promos">
+    <meta name="viewport" content="width=device-width" />
+    <title>Wingman Promotions</title>
+    <link rel="icon" href="favicon.png">
+    <link href="style.css" rel="stylesheet" type="text/css" media="screen,projection" />
+    <!-- bxSlider CSS file -->
+<<<<<<< HEAD
+    <link href="/lib/jquery.bxslider/jquery.bxslider.css" rel="stylesheet" />
+=======
+    <link href="/lib/jquery.bxslider.css" rel="stylesheet" />
+>>>>>>> master
+    <!-- jQuery library (served from Google) -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+</head>
+
+<body>  
+    <header>
+        <div id="skyline"></div>
+        <h1>
+            <a href="index.html">
+                <img src="images/logo.png"/>
+            </a>
+        </h1>
+        <nav>
+            <ul class="group">
+                <li><a href="#calendar" class="cal-link">Upcoming Shows</a></li>
+                <li><a href="#specials">Specials</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="slideshow">
+      <ul class="bxslider">
+<<<<<<< HEAD
+        <li><img src="/images/pic1.jpg" /></li>
+        <li><img src="/images/pic2.jpg" /></li>
+        <li><img src="/images/pic3.jpg" /></li>
+        <li><img src="/images/pic4.jpg" /></li>
+=======
+        <li><img src="/images/slider/AA_GreenMill_29.jpg" /></li>
+        <li><img src="/images/slider/AA_PalmerHouse_18.jpg" /></li>
+        <li><img src="/images/slider/AA_TASTE_09_2013.jpg" /></li>
+        <li><img src="/images/slider/CC_gospel_sunday_pritzker.jpg" /></li>
+        <li><img src="/images/slider/CC_Jazz_Fest_08.jpg" /></li>
+        <li><img src="/images/slider/CC_LuxBar.jpg" /></li>
+        <li><img src="/images/slider/CC_Rookery_Burnham_Root.jpg" /></li>
+        <li><img src="/images/slider/CC_Soldier_Field_3.jpg" /></li>
+        <li><img src="/images/slider/CC_TheBerghoff-medres.jpg" /></li>
+        <li><img src="/images/slider/CCTB_SkylineBallroom_Setup1.jpg" /></li>
+        <li><img src="/images/slider/CR_below-trumptower.jpg" /></li>
+        <li><img src="/images/slider/CR_OrientalTheatre.jpg" /></li>
+        <li><img src="/images/slider/CR_river-chicagoflag.jpg" /></li>
+        <li><img src="/images/slider/DCASE_mich_ave_at_xmas.jpg" /></li>
+        <li><img src="/images/slider/DCASE_UP_Comedy_Club_int_001.jpg" /></li>
+>>>>>>> master
+      </ul>
+    </div>
+    <footer>
+
+    </footer>
+    <!-- bxSlider Javascript file -->
+<<<<<<< HEAD
+    <script src="/js/jquery.bxslider/jquery.bxslider.min.js"></script>
+=======
+    <script src="/js/jquery.bxslider.min.js"></script>
+>>>>>>> master
+</body>
+</html>
